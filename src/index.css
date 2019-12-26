@@ -7,6 +7,33 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.gridTable div{
+  border: 1px solid black;
+}
+.text-center{
+  text-align: center;
+}
+
+.table-block h3,.table-block p{
+  font-size: 2.5em ;
+  margin-block-end: 20px;
+  margin-block-start: 20px;
+}
+
+
+.header-block{
+  background-color: #f4d8ff;
+}
+.selected-row{
+  background-color: #d8f5ff;  
+}
+.selected-column{
+  background-color: #d8f5ff;  
+}
+.selected-block{
+  background-color: #a8e3f6;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
